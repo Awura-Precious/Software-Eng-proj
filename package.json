@@ -1,0 +1,22 @@
+{
+  "name": "software-eng-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --coverage --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awura-Precious/Software-Eng-proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Awura-Precious/Software-Eng-proj/issues"
+  },
+  "homepage": "https://github.com/Awura-Precious/Software-Eng-proj#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
