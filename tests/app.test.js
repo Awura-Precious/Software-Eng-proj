@@ -30,7 +30,7 @@ describe('testing add.js', () => {
         document.querySelector('.todo-input').value = "Awura";
         document.querySelector('.todo-button').click();
 
-        expect(document.querySelector('.todo-list').children).toHaveLength(2);
+        expect(document.querySelector('.todo-list').children).toHaveLength(1);
         expect(document.querySelector('.todo-item').innerText).toMatch("Awura");
         expect(document.querySelector('.complete-btn').innerHTML).toMatch(`<i class="fas fa-check"></i>`);
         expect(document.querySelector('.trash-btn').innerHTML).toMatch(`<i class="fas fa-trash"></i>`)
